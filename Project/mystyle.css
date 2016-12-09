@@ -121,7 +121,7 @@ h1{
     justify-content: center;
 }
 
-.circle { 
+/*.circle { 
     width: 480px;
     height: 480px;
     background: #2AD5C3; 
@@ -137,15 +137,18 @@ h1{
     margin-right: auto;
     display: block;
     /*max-width: 40%;*/
-}
+
 
 .meimg img{
-    margin-top: 11px;
+    border: 12px solid; 
+    border-color: #2AD5C3;
+    margin-top: 5px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     max-width: 35%;
+    margin-bottom: 11px;
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
@@ -299,6 +302,7 @@ padding-right: 60px;
 .images{
     margin-left: 250px;
     padding-right: 25px;
+    display: relative;
 }
 .images img{
     filter: grayscale(100%);
@@ -338,6 +342,17 @@ padding-right: 60px;
     padding-bottom: 7px;
 }
 
+@media only screen and (max-width: 500px){
+    .expclass p img{
+        padding-left: 300px;
+    } 
+}
+
+@media only screen and (max-width: 300px){
+    .meimg img{
+        margin-top: 0 auto;
+    }
+}
 /****** MODAL STUFF *****/
 /* The Modal (background) */
 /*
