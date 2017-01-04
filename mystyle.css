@@ -342,7 +342,7 @@ padding-right: 60px;
     padding-bottom: 7px;
 }
 
-@media only screen and (min-width: 1250px){
+@media only screen and (min-width: 1249px){
     h1{
         margin: 0 auto;
         text-align: center;
