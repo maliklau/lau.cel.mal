@@ -350,11 +350,11 @@ padding-right: 60px;
         }  
 
     .nav-link a{
-        font-size: 37px;
+        font-size: 35px;
         text-decoration: none;
-        padding-right: 25px;
+        padding-right: 35px;
         padding-bottom: 10px;
-        padding-left: 95px;
+        padding-left: 60px;
         padding-top: 10px;
     }
 
@@ -364,8 +364,8 @@ padding-right: 60px;
 }
 
     .images{
-    margin-left: 350px;
-    padding-right: 0px;
+    margin-left: 250px;
+    padding-right: 25px;
     display: relative;
 }
     .meimg img{
@@ -470,7 +470,7 @@ padding-right: 60px;
         h1{
             margin: 0 auto;
             text-align: center;
-            font-size: 80px;
+            font-size: 85px;
         }  
         .nav-link a{
             font-size: 20px;
