@@ -342,6 +342,53 @@ padding-right: 60px;
     padding-bottom: 7px;
 }
 
+@media only screen and (min-width: 1600px){
+    h1{
+        margin: 0 auto;
+        text-align: center;
+        font-size: 130px;
+        }  
+
+    .nav-link a{
+        font-size: 35px;
+        text-decoration: none;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-left: 100px;
+        padding-top: 10px;
+    }
+
+    .galleryclass p{
+    padding-bottom: 10px;
+    padding-left: 55px;
+}
+
+    .images{
+    margin-left: 250px;
+    padding-right: 25px;
+    display: relative;
+}
+    .meimg img{
+        border: 12px solid; 
+        border-color: #2AD5C3;
+        margin-top: 5px;
+        max-width: 35%;
+        margin-bottom: 11px;
+    }
+    .mypage h2{
+        color: #000;
+        font-size: 45px;
+        padding-top: 20px;
+    }
+    .mypage p{
+        font-size: 25px;
+        padding-right: 65px;
+        padding-bottom: 45px;
+        padding-left: 65px;
+}
+
+}
+
 @media only screen and (min-width: 1249px){
     h1{
         margin: 0 auto;
