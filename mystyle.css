@@ -1,0 +1,3 @@
+height: 200px;
+background: red; /* For browsers that do not support gradients */
+background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
