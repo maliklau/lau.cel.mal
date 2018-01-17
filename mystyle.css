@@ -1,3 +1,32 @@
-height: 200px;
-background: red; /* For browsers that do not support gradients */
-background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+body {
+  height: 100%;
+  width: 100%;
+  background: #ee0979; /* For browsers that do not support gradients */
+  background: linear-gradient(#ee0979, #ff6a00); /* Standard syntax (must be last) */
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Pacifico', cursive !important;
+  font-size: 90px !important;
+}
+
+h2 {
+  font-size: 36px;
+  margin-left: 9%;
+}
+
+div {
+  float: left;
+  padding-left: 9%;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+img {
+  float: right;
+}
