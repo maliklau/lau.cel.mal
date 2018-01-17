@@ -39,7 +39,7 @@ div {
 div.pagination {
   text-align: center;
   padding-top: 0;
-  margin-left: 36%;
+  margin-left: 32%;
   right: 0;
 }
 
@@ -87,4 +87,5 @@ div.pagination {
 
 img {
   float: right;
+  height: 150%;
 }
