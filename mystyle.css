@@ -27,6 +27,55 @@ div {
   padding-top: 15%;
 }
 
+div.pagination {
+  text-align: center;
+  padding-top: 0;
+  margin-left: 36%;
+  right: 0;
+}
+
+.pagination a {
+  display: inline-block;
+  margin: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.pagination a::before {
+  background-color: #000;
+  opacity: 0.4;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.pagination a:hover::before {
+  width: 15px;
+  height: 15px;
+  margin: -2px 0 0 -2px;
+}
+
+.pagination a.selected::before,
+.pagination a:hover::before {
+  background-color: #000;
+}
+
+.pagination a.selected:hover::before,
+.pagination a.selected::before {
+  width: 20px;
+  height: 20px;
+  margin: -5px 0 0 -5px;
+}
+
 img {
   float: right;
 }
