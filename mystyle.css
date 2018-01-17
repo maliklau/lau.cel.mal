@@ -3,10 +3,18 @@ body {
   width: 100%;
   background: #ee0979; /* For browsers that do not support gradients */
   background: linear-gradient(#ee0979, #ff6a00); /* Standard syntax (must be last) */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body {
   margin: 0;
+}
+
+a.styled::before {
+  width: 15px !important;
+  height: 15px !important;
+  margin: -2px 0 0 -2px;
 }
 
 h1 {
