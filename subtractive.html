@@ -12,5 +12,31 @@
       <h2>member: Sean McLean</h2>
       <a href="index.html" class="styled">Overview Page</a>
       <hr>
+      <h3>Example XML Configuration:</h3>
+      <img src = "subtractiveXML.png" alt = "subtractivexml">
+      <hr>
+      <h3>Description:</h3>
+      <p>The component generates Sine Waves and places them into a wavetable. From the wavetable, the frames are edited and altered to achieve any desired and required effects.
+      The Subtract Wave class generates the sine waves and places them into the wavetable. The Subtractive Instrument can play more than 1 note at a time (Polyphony). The Subtract Wave Class
+      also takes in any information from the xml score files and alters the wavetable with that information. The type of wave produced by Subtract Wave Class depends upon the info passed by score file.
+      The Subtract Wave class also contains the Reson Filter which can have parameters altered by the score file. The Subtract Instrument class pulls in all the information from the score file
+      and creates a Subtract Wave Object to create and edit sound. The Instrument can play 3 different types of waves: Triangle, Square, and Sawtooth. The sound frames are placed into a ADSR envelope in the
+      Subtractive Instrument class (function called ADSR) which will prevent clicking and popping with its functionality. Moog sound is implemented by altering freq input into sin waves.</p>
+      <hr>
+      <h3>Attributes for the score file:</h3>
+      <p>wavetype: sets wavetype <br>
+        reson: reson freq <br>
+        bandwidth: reson bandwidth <br>
+        sweep: moog sound <br>
+        vibfreq: vibrato freq input <br>
+        vibamp: vibrato freq amp</p>
+      <hr>
+      <h3>Grading criteria:</h3>
+      <p>10 - Waveform playback from tables - Done. In Subtract Wave Class (createwavetable()). <br>
+        20 - Varying pitch playback from tables - Done. In Subtract Wave Class (createwavetable()) - parameters passed in score file. <br>
+        30 - Envelope generation - Done. In Subtractive Instrument Class - each frame is passed to ADSR to be edited. <br>
+        35 - Polyphony - Done. More than one note can be played at a time. <br>
+        40 - Reson implementation and the Moog sound - Done. Reson Filter in Subtract Wave class - parameters passed in score file. Moog Sound done by using sweep parameter in score and set in createwavetable(). <br>
+        50 - Filter envelopes - Done. <br> </p>
     </body>
 </html>
