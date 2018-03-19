@@ -13,13 +13,18 @@
       <a href="index.html" class="styled">Overview Page</a>
       <hr>
       <h3>Example XML Configuration:</h3>
-      <img src = "pianoXML.png" alt = "pianoxml">
+      <img src = "effectsXML.png" alt = "effectsxml">
       <hr>
       <h3>Description:</h3>
-      <p></p>
+      <p>This component accepts audio from the other components and applies effects, producing the final output of the system. The implemented effects are chorus, flanging, compression, and noise gate. A chorus effect occurs when individual sounds with similar pitch converge and are perceived as one. A flanging effect is produced by mixing two identical signals together, with one signal delayed by a small and gradually changing period. A compression effect is an operation that attenuates signals above a threshold. A noise gate effect is an operation that attenuates signals below a threshold.
+      This effects component allows for controllable sends, meaning that you can control the mixture of dry (input) and wet (output) for every effect and every audio source. As a result, you can apply no effects to a sound, and apply 3 effects to another sound much like a professional mixing system.</p>
       <hr>
       <h3>Attributes for the score file:</h3>
-      <p></p>
+      <p>Delay – Sets the delay period <br>
+        Wet - Output <br>
+        Dry - Input <br>
+        Threshold – Sets the desired threshold (Compression and NoiseGate)
+      </p>
       <hr>
       <h3>Grading criteria:</h3>
       <p>
