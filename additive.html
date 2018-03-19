@@ -12,18 +12,35 @@
       <h2>member: Lauren Malik</h2>
       <a href="index.html" class="styled">Overview Page</a>
       <hr>
+      <h3>Example XML Configuration:</h3>
+      <img src = "additiveXML.png" alt = "additivexml">
+      <hr>
       <h3>Description:</h3>
-      <p></p>
+      <p>The Additive Synthesis instrument is created my generating multiple sin waves and
+      adding them up into a sample to be written to a channel. The harmonics are created
+    by changing the amplitude and freqency during the generation of the sine waves. Polyphony allows
+    for multiple notes to be played at a time (chords). Sound cross fading is calculated to have the notes
+    smoothly transition from one to anotherl, this is done by interpolation. The generated envelope uses attack and
+    release to make the notes have a smoother transition with less abrupt changes which cause a pop sound. I used
+    a separate attack and release class called CAR to implement this.
+    The vibrato it implemented thorugh varying pitch. I referenced Lecture 4 notes to calculate the
+    radians and then add them to the frame (channel).</p>
       <hr>
       <h3>Attributes for the score file:</h3>
-      <p></p>
+      <p>harmonics: a string of harmonics to be generated <br>
+        vibfreq: the frequency for the virbrato to be played <br>
+        vibmult: the multiplier for the vibrato to change the pitch by a percent <br>
+        cross: to see if cross fading should occurr <br>
+        crossval: the value used to calculate cross cross-fading <br>
+        note: the note/pitch specified
+      </p>
       <hr>
       <h3>Grading criteria:</h3>
-      <p>10 - <br>
-        20 -  <br>
-        30 -  <br>
-        35 -  <br>
-        40 -  <br>
-        50 -  </p>
+      <p>10 - Sinusoid playback on demand from the sequencer: a sound is generated and played by the sequencer 10<br>
+        20 - Definition of all harmonics: generate multiple sine waves and add them to a sample, changing freq and amp 20<br>
+        30 -  Envelope generation: uses attack and release to smooth note sounds 30<br>
+        35 -  Polyphony: multiple notes play at a time 35<br>
+        40 -  Sound cross-fading: notes cross fade in and out due to calculation 40<br>
+        50 - Vibrato OR glissando: radians are calculated to chagne pitch for vibrato 50</p>
     </body>
 </html>
