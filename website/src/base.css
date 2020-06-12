@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjord+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Cormorant+Upright:wght@300;400;500&family=Fjord+One&family=Oregano&family=Podkova&family=Yellowtail&display=swap');
+
+body {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color: #e9967a;
+}
+
+.topNav {
+  font-family: 'Cormorant Upright', serif;
+  text-align: center;
+  background-color: #e9967a;
+}
+
+.topNav a {
+  margin-left: 3%;
+  color: white;
+}
+
+.topNav a.notLeftLink {
+  margin-left: 0%;
+}
+
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  font-size: 14px;
+  left: 0;
+  text-align: center;
+}
+
+.borderBox {
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 1px solid #e9967a;
+}
