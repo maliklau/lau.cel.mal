@@ -1,2 +1,2 @@
-# lau.cel.mal.github.io
+# maliklau.github.io/lau.cel.mal
 my personal website
